@@ -8,12 +8,12 @@ Gem::Specification.new do |spec|
   spec.name = "englishize_digits"
   spec.version = EnglishizeDigits::VERSION
   spec.authors = ["aalyahya"]
-  spec.email = ["alyahya@morniksa.com"]
+  spec.email = ["abdullah@alyahya.cc"]
 
   spec.summary = "Non-English digits converter for ActiveModel attributes"
   spec.description = "An ActiveModel extension that automatically converts all non-English digits to English digits " \
-      "before validation. https://github.com/morniio/englishize_digits"
-  spec.homepage = "https://github.com/morniio/englishize_digits"
+      "before validation. https://github.com/aalyahya/englishize_digits"
+  spec.homepage = "https://github.com/aalyahya/englishize_digits"
   spec.license = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -35,12 +35,12 @@ Gem::Specification.new do |spec|
   spec.test_files = `git ls-files -- {test,spec}/*`.split("\n")
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "activemodel", ">= 3.0", "< 8.0"
+  spec.add_runtime_dependency "activemodel", ">= 3.0", "< 9.0"
   spec.add_development_dependency "active_attr", "~> 0.10"
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "rubocop", "~> 0.58"
 
-  spec.required_ruby_version = ">= 2.2"
+  spec.required_ruby_version = ">= 2.7"
 end
