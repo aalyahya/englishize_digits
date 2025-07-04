@@ -8,12 +8,12 @@ Gem::Specification.new do |spec|
   spec.name = "englishize_digits"
   spec.version = EnglishizeDigits::VERSION
   spec.authors = ["aalyahya"]
-  spec.email = ["alyahya@morniksa.com"]
+  spec.email = ["abdullah@alyahya.cc"]
 
   spec.summary = "Non-English digits converter for ActiveModel attributes"
   spec.description = "An ActiveModel extension that automatically converts all non-English digits to English digits " \
-      "before validation. https://github.com/morniio/englishize_digits"
-  spec.homepage = "https://github.com/morniio/englishize_digits"
+      "before validation. https://github.com/aalyahya/englishize_digits"
+  spec.homepage = "https://github.com/aalyahya/englishize_digits"
   spec.license = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
